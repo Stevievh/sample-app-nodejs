@@ -3,7 +3,7 @@
   "description": "A sample NodeJS app installable on BigCommerce stores",
   "repository": "https://github.com/bigcommerce/sample-app-nodejs",
   "keywords": ["Node", "Heroku"],
-  "addons": [ "jawsdb:kitefin" ],
+  "addons": [ "" ],
   "env": {
     "CLIENT_ID": {
       "description": "The client id of your app, provided by the BigCommerce developer portal."
@@ -25,6 +25,6 @@
     }
   },
   "scripts": {
-    "postdeploy": "npm run db:setup"
+    "postdeploy": ""
   }
 }
